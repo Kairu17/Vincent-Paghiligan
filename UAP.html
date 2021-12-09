@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VKP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">    
+</head>
+<body>
+    <header>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="img/VKP.jpg" width="50" height="50">
+        </div>
+<ul class="nav-area">
+<li><a href="Home.html">Home</a></li>
+<li><a href="About me.html">About Me</a></li>
+<li><a href="UAP.html">Users Acceptable Level </a></li>
+<li><a href="Phases.html">creation and deployment</a></li>
+<div class="dropdown">
+    <button class="dropbtn">PROBLEM AND SOLUTION</button>
+    <div class="dropdown-content">
+      <a href="Problem.html">Problem</a>
+      <a href="Solution.html">Solution</a>
+    </div>
+  </div>
+<div class="dropdown">
+    <button class="dropbtn">PRODUCT DETAILS</button>
+    <div class="dropdown-content">
+      <a href="What is the product.html">What is the product?</a>
+      <a href="Why it is created.html">Why it is Created?</a>
+      <a href="Materials used.html">Materials Used</a>
+      <a href="Patent.html">Patent</a>
+    </div>
+  </div>
+</ul>
+</div>
+
+<div class="welcome-text">
+
+    <h1>Survey<br><span>Results</span></h1>
+    <br>
+    <P style="color:white">Data shows that my website are well acknowledge by the people who asnwered the survey. A total of 34 respondents from my friends, classmates and family are collected to know whether my website is running smooth.</P>
+    <br>
+    <p>
+        <script>
+            function QUESTIONS(sw) {
+              var pic;
+              if (sw == 0) {
+                pic = "img/Q1.png"
+              } 
+              else if (sw == 1) {
+                pic = "img/Q2.png"
+              }
+              else if (sw == 2) {
+                pic = "img/Q3.png"
+              }
+              else if (sw == 3) {
+                pic = "img/Q4.png"
+              }
+              else if (sw == 4) {
+                pic = "img/Q5.png"
+              }
+              else if (sw == 5) {
+                pic = "img/Q6.png"
+              }
+              else if (sw == 6) {
+                pic = "img/Q7.png"
+              }
+              else if (sw == 7) {
+                pic = "img/Q8.png"
+              }
+              else if (sw == 8) {
+                pic = "img/Q9.png"
+              }
+              else if (sw == 9) {
+                pic = "img/Q10.png"
+              }
+              document.getElementById('myImage').src = pic;
+            }
+            </script>
+            
+            <img id="myImage" src="img/Q1.png" width="600" height="400">
+        <button class="button" type="button" onclick="QUESTIONS(0)">QUESTION 1</button>
+        <button class="button" type="button" onclick="QUESTIONS(1)">QUESTION 2</button>
+        <button class="button" type="button" onclick="QUESTIONS(2)">QUESTION 3</button>
+        <button class="button" type="button" onclick="QUESTIONS(3)">QUESTION 4</button>
+        <button class="button" type="button" onclick="QUESTIONS(4)">QUESTION 5</button>
+        <button class="button" type="button" onclick="QUESTIONS(5)">QUESTION 6</button>
+        <button class="button" type="button" onclick="QUESTIONS(6)">QUESTION 7</button>
+        <button class="button" type="button" onclick="QUESTIONS(7)">QUESTION 8</button>
+        <button class="button" type="button" onclick="QUESTIONS(8)">QUESTION 9</button>
+        <button class="button" type="button" onclick="QUESTIONS(9)">QUESTION 10</button>
+        </p>
+
+        
+</div>
+
+
+      
+
+
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VKP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">    
+</head>
+<body>
+    <header>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="img/VKP.jpg" width="50" height="50">
+        </div>
+<ul class="nav-area">
+<li><a href="Home.html">Home</a></li>
+<li><a href="About me.html">About Me</a></li>
+<li><a href="UAP.html">Users Acceptable Level </a></li>
+<li><a href="Phases.html">creation and deployment</a></li>
+<div class="dropdown">
+    <button class="dropbtn">PROBLEM AND SOLUTION</button>
+    <div class="dropdown-content">
+      <a href="Problem.html">Problem</a>
+      <a href="Solution.html">Solution</a>
+    </div>
+  </div>
+<div class="dropdown">
+    <button class="dropbtn">PRODUCT DETAILS</button>
+    <div class="dropdown-content">
+      <a href="What is the product.html">What is the product?</a>
+      <a href="Why it is created.html">Why it is Created?</a>
+      <a href="Materials used.html">Materials Used</a>
+      <a href="Patent.html">Patent</a>
+    </div>
+  </div>
+</ul>
+</div>
+
+
+<div class="welcome-text">
+
+        <h1>Patent<br><span>KR100802205B1</span></h1>
+
+        <script>
+          function light(sw) {
+            var pic;
+            if (sw == 0) {
+              pic = "img/PROTOTYPE.png"
+            } else {
+              pic = "img/PATENT.png"
+            }
+            document.getElementById('myImage').src = pic;
+          }
+          </script>
+          
+          <img id="myImage" src="img/PATENT.png" width="500" height="600">
+          
+
+          <p>
+          <button class="button" type="button" onclick="light(1)">PATENT</button>
+          <button class="button" type="button" onclick="light(0)">PROTOTYPE</button>
+          </p>
+
+
+
+            
+
+    </div>
+</header>
+
+</body>
+</html>
